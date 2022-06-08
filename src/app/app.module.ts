@@ -6,10 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AdditemComponent } from './additem/additem.component';
-import { DisplayItemComponent } from './display/display-item/display-item.component';
+import { DisplayListComponent } from './display/display-list/display-list.component';
 import { DisplayCardComponent } from './display/display-card/display-card.component';
 import { ErrorComponent } from './error/error.component';
 import { ErrorMessageComponent } from './error/error-message/error-message.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,14 +18,15 @@ import { ErrorMessageComponent } from './error/error-message/error-message.compo
     HeaderComponent,
     FooterComponent,
     AdditemComponent,
-    DisplayItemComponent,
+    DisplayListComponent,
     DisplayCardComponent,
     ErrorComponent,
     ErrorMessageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

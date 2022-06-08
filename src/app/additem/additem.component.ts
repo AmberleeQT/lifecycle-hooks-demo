@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-additem',
+  selector: 'app-add-item',
   templateUrl: './additem.component.html',
   styleUrls: ['./additem.component.scss']
 })

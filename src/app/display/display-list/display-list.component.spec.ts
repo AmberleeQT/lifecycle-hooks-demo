@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DisplayItemComponent } from './display-item.component';
+import { DisplayListComponent } from './display-list.component';
 
-describe('DisplayItemComponent', () => {
-  let component: DisplayItemComponent;
-  let fixture: ComponentFixture<DisplayItemComponent>;
+describe('DisplayListComponent', () => {
+  let component: DisplayListComponent;
+  let fixture: ComponentFixture<DisplayListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DisplayItemComponent ]
+      declarations: [ DisplayListComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DisplayItemComponent);
+    fixture = TestBed.createComponent(DisplayListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
